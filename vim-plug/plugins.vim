@@ -1,10 +1,8 @@
 call plug#begin('~/.config/autoload/plugged')
 
     "Colorscheme
-    "Plug 'morhetz/gruvbox'
-    "Plug 'gilgigilgil/anderson.vim'
-    "Plug 'Badacadabra/vim-archery'
-    Plug 'zacanger/angr.vim'
+    Plug 'morhetz/gruvbox'
+    "Plug 'zacanger/angr.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Undo

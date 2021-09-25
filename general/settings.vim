@@ -17,8 +17,6 @@ set undofile
 set incsearch
 set scrolloff=8
 set noshowmode
-"set cursorline
-"set colorcolumn=80
 set signcolumn=yes
 set termguicolors
 set completeopt=menuone,noinsert,noselect
@@ -31,3 +29,5 @@ endfunction
 
 " syntax highlighting for vagrant files
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
+
+highlight Normal guibg=none
