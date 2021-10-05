@@ -4,5 +4,5 @@ source ~/.config/nvim/keys/mappings.vim
 source ~/.config/nvim/vim-plug/plugins.vim
 
 " Plugin Configuration
-source ~/.config/nvim/plug-config/gruvbox-config.vim
+source ~/.config/nvim/plug-config/dracula-config.vim
 source ~/.config/nvim/plug-config/telescope-config.vim

@@ -1,8 +1,9 @@
 call plug#begin('~/.config/autoload/plugged')
 
     "Colorscheme
-    Plug 'morhetz/gruvbox'
+    "Plug 'morhetz/gruvbox'
     "Plug 'zacanger/angr.vim'
+    Plug 'dracula/vim', { 'as': 'dracula' }
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Undo
