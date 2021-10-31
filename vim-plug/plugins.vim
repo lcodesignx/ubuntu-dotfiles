@@ -26,6 +26,8 @@ call plug#begin('~/.config/autoload/plugged')
     Plug 'PProvost/vim-ps1'
     " Jinja2
     Plug 'Glench/Vim-Jinja2-Syntax'
+    " Puppet
+    Plug 'puppetlabs/puppet-syntax-vim'
 
 call plug#end()
 
