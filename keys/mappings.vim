@@ -8,10 +8,10 @@ nnoremap <Leader>k :wincmd k<CR>
 nnoremap <Leader>j :wincmd j<CR>
 
 " tab completion
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
+"inoremap <silent><expr> <Tab>
+      "\ pumvisible() ? "\<C-n>" :
+      "\ <SID>check_back_space() ? "\<Tab>" :
+      "\ coc#refresh()
 
 " undotree
 nnoremap <leader>n :UndotreeToggle<CR>
