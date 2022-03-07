@@ -7,11 +7,8 @@ nnoremap <Leader>l :wincmd l<CR>
 nnoremap <Leader>k :wincmd k<CR>
 nnoremap <Leader>j :wincmd j<CR>
 
-" tab completion
-"inoremap <silent><expr> <Tab>
-      "\ pumvisible() ? "\<C-n>" :
-      "\ <SID>check_back_space() ? "\<Tab>" :
-      "\ coc#refresh()
+" FZF mappings
+nnoremap <C-p> :Files<CR>
 
 " undotree
 nnoremap <leader>n :UndotreeToggle<CR>
