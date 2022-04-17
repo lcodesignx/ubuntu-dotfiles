@@ -19,5 +19,7 @@ call plug#begin('~/.config/autoload/plugged')
     Plug 'Glench/Vim-Jinja2-Syntax'
     " Puppet
     Plug 'puppetlabs/puppet-syntax-vim'
+    " NerdTree
+    Plug 'preservim/nerdtree'
 
 call plug#end()
