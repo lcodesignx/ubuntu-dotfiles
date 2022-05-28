@@ -21,5 +21,7 @@ call plug#begin('~/.config/autoload/plugged')
     Plug 'puppetlabs/puppet-syntax-vim'
     " NerdTree
     Plug 'preservim/nerdtree'
+    " Treesitter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
