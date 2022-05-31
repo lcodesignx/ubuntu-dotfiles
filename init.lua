@@ -1,6 +1,7 @@
 require "options"
 require "keymaps"
 require "plugins"
+require'lspconfig'.pyright.setup{}
 
 local configs = require'nvim-treesitter.configs'
 configs.setup {

@@ -37,7 +37,6 @@ keymap("n", "<Leader>pp", ":wincmd n<CR>", opts)
 keymap("n", "<Leader>x", ":VimwikiToggleListItem<CR>", opts)
 
 -- NerdTree
-keymap("n", "<leader>n", ":NERDTreeFocus<CR>", opts)
 keymap("n", "<C-n>", ":NERDTree<CR>", opts)
 keymap("n", "<C-t>", ":NERDTreeToggle<CR>", opts)
 keymap("n", "<C-f>", ":NERDTreeFind<CR>", opts)

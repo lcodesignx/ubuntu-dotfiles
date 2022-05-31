@@ -26,5 +26,7 @@ return require('packer').startup(function()
   use 'puppetlabs/puppet-syntax-vim'
   -- NerdTree
   use 'preservim/nerdtree'
+  -- Autocomplete
+  use 'neovim/nvim-lspconfig'
 
 end)
