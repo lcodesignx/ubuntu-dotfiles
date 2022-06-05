@@ -28,5 +28,6 @@ return require('packer').startup(function()
   use 'preservim/nerdtree'
   -- Autocomplete
   use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/nvim-compe'
 
 end)
